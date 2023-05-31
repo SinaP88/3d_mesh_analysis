@@ -6,4 +6,4 @@ RUN pip install --no-cache-dir torch torchvision --index-url https://download.py
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip cache purge
 EXPOSE 8000
-CMD ["flask", "run", "--host=0.0.0.0", "--port=7000"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
